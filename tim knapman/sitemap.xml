@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://www.timknapman.com.au/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.timknapman.com.au/index</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.timknapman.com.au/about</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.timknapman.com.au/portfolio</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.timknapman.com.au/skills</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.timknapman.com.au/resume</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.timknapman.com.au/files/Tim%20Knapman%20-%20Resume.pdf</loc>
+  <lastmod>2016-06-22T07:18:47+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+</urlset>

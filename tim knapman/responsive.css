@@ -1,0 +1,99 @@
+/* Large desktop */
+@media (min-width: 1200px) {
+    nav.tkmenu { margin-left: 50px; }
+}
+
+/* Landscape tablet */
+@media (max-width: 1024px) and (orientation: landscape) {
+    section { max-width: 100%; }
+    #slider { background-size: 121% auto; }
+    #slider h1 { width: 100%; text-align: center; left: 0%; }
+    #slider h2 { width: 90%; left: 5%; text-align: right; }
+    
+    ul#portfolio { margin-left: 0px; }
+    ul#portfolio li { width: 30.2%; }
+    ul#portfolio .portfolio-item .portfolio-overlay { top: -203px !important; height: 191px !important; }
+    
+    nav.tkmenu { display: none; }
+    nav.mobmenu { display: block; background: #141a4c; text-align: center; padding: 5px 0px; }
+    nav.mobmenu.scroll-to-fixed-fixed { top: 0px !important; }
+    ul.mobilemenu { display: none; }
+    .button_container span { background: #ccc; border: 0px; height: 5px; width: 40px; display: block; -webkit-transition: all .35s ease; transition: all .35s ease; cursor: pointer; margin: 5px auto; }
+    ul.mobilemenu.open { display: block; }
+    ul.mobilemenu li:hover { background: #f0a202; }
+    ul.mobilemenu li a:link, ul.mobilemenu li a:visited { color: #fff; }
+    ul.mobilemenu li a:hover { background: transparent; }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (max-width: 768px) and (orientation: portrait) {
+    #slider { background-size: 213% auto; }
+    #slider h2 { width: 85%; left: 0%; margin: 0px auto; text-align: center; }
+    
+    nav.tkmenu { display: none; }
+    nav.mobmenu { display: block; background: #141a4c; text-align: center; padding: 5px 0px; width: 100%; margin: 0px; }
+    nav.mobmenu.scroll-to-fixed-fixed { top: 0px !important; }
+    ul.mobilemenu { display: none; }
+    .button_container span { background: #ccc; border: 0px; height: 5px; width: 40px; display: block; -webkit-transition: all .35s ease; transition: all .35s ease; cursor: pointer; margin: 5px auto; }
+    ul.mobilemenu.open { display: block; }
+    ul.mobilemenu li:hover { background: #f0a202; }
+    ul.mobilemenu li a:link, ul.mobilemenu li a:visited { color: #fff; }
+    ul.mobilemenu li a:hover { background: transparent; }
+    
+    ul#portfolio { margin-left: -10px; }
+    ul#portfolio li { width: 30.2%; }
+    ul#portfolio .portfolio-item .portfolio-overlay { height: 152px !important; top: -152px !important; }
+    .portfolio-item h3 a { font-size: 18px; }
+    .portfolio-item h3 { bottom: 80px; }
+    
+    #connect a { font-size: 14px; }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    section { width: 100%; }
+    #slider { background-size: 213% auto; }
+    #slider h1 { width: 100%; text-align: center; left: 0%; }
+    #slider h2, #slider h3 { text-align: center; width: 90%; font-size: 42px; }
+    #slider h3 { font-size: 30px; }
+    
+    
+    ul#portfolio { width: auto; margin-left: -15px; }
+    ul#portfolio li { width: 30.2%; }
+    ul#portfolio .portfolio-item .portfolio-overlay { height: 157px !important; top: 157px !important; }
+    
+    #connect a:link, #connect a:visited { font-size: 14px; }
+    .social-box div { text-align: center; }
+}
+
+@media (max-width: 480px) and (orientation: landscape) {
+    ul#portfolio .portfolio-item .portfolio-overlay { height: 200px !important; top: -200px !important; }
+    ul#portfolio li { width: 45%; }
+    
+    ul#portfolio .portfolio-item .portfolio-overlay { height: 147px !important; top: -147px !important; }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) and (orientation: portrait) {
+    section { width: 100%; }
+    #slider { background-size: auto; }
+    #slider h1 { font-size: 45px; left: 0%; }
+    #slider h2 { font-size: 22px; left: 0%; top: 10%; text-align: center; width: 90%; }
+    #slider h3 { width: 90%; margin: 0px auto; }
+    #slider p { top: 20%; }
+
+    #myScrollspy { display: none; }
+    .education p.bold { text-align: left; }
+
+    section p { text-align: justify; }
+    .social { margin: 0% 6%; }
+    .social-links { text-align: center; }
+    ul#portfolio { margin-left: -40px; }
+    ul#portfolio li { width: 100%; margin: 5px 0px; padding: 0px; }
+    ul#portfolio .portfolio-item .portfolio-image { width: 90%; margin: 0px auto; }
+    ul#portfolio .portfolio-item .portfolio-overlay { height: 216px !important; top:-216px !important; width: 90%; margin: 0px auto; }
+    ul#portfolio .portfolio-item { height: 220px; }
+
+    #connect h4.subtitle { color: #ccc; }
+    #connect a:link, #connect a:visited { font-size: 14px; }
+}
